@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f3;
+    padding: 1%;
+}
+
+.sideNav{
+    width: 20%;
+    height: 100%;
+    background-color: #f9fafb;
+    font-family: "Nunito", "sans-serif";
+    border-right: 2px solid #f1f1f2;
+    border-radius: 5px 0 0 5px;
+    padding:1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    border-radius:0 5px 5px 0;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid #f1f1f2;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.9em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Events{
+    height: 100%;
+    width: 70%;
+    border-right:2px solid #edeeee ;
+    padding: 2%;
+
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.People{
+    height: 100%;
+    width: 30%;
+    margin-top: 1%;
+    background-color: #f9fafb;
+    font-family: "Nunito", "sans-serif";
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    align-items: center;
+}
