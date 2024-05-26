@@ -1,0 +1,3 @@
+WebAuthN:
+	1) Roaming Authenticator (Using the biometric devices)
+	2) Platform authenticator(Using mobile devices like phones and laptops)
